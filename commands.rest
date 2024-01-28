@@ -1,0 +1,28 @@
+### get all
+GET http://localhost:3000/api/employees
+
+### get 1
+GET http://localhost:3000/api/employees/2
+
+
+### UPDATE 1
+PUT http://localhost:3000/api/employees/2
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Fanny",
+  "birthDate": "2000-01-02T00:00:00.000Z",
+  "hourlySalary": 70
+}
+
+
+### UPDATE 1
+POST http://localhost:3000/api/employees
+Content-Type: application/json; charset=utf-8
+
+{
+  "name": "Stellan",
+  "birthDate": "2000-01-02T00:00:00.000Z",
+  "hourlySalary": 10
+}
+
